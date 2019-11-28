@@ -1,0 +1,47 @@
+body {
+	font-size: 18px;
+	line-height: 1.618;
+	font-family: 'Georgia', sans-serif;
+	margin: 0;
+}
+
+.default-container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+.flex-layout {
+	display: flex;
+	.half-basis {
+		flex-basis: 50%;
+	}
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.justify-content-flex-end {
+	justify-content: flex-end;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+h1, h3 {
+	text-transform: uppercase;
+}
+
+.margin-1em {
+	margin: 1em 0;
+}

@@ -1,0 +1,71 @@
+@import '_colors';
+@import '_layout';
+
+/*Order Form Container*/
+
+.order-form {
+	max-width: 90%;
+	margin: 2em auto;
+	border: 1px solid #bdbdbd;
+	padding: 1em 5%;
+}
+
+.menu-wrapper {
+	padding: 1em 0;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	margin: 2em 0;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.extended-menu {
+	min-width: calc(500px - 1em);
+}
+
+.title-menu {
+	font-weight: 700;
+	text-transform: capitalize;
+	margin-bottom: .5em;
+}
+
+.course-wrapper {
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.course-wrapper:nth-child(odd) {
+	background: #f5f5f5;
+}
+
+.person-tickers {
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.person-panel {
+	width: 150px;
+	text-align: center;
+	flex: 0 0 25%;
+	padding: .25em 0;
+}
+
+.person-panel.primary {
+	padding: .25em 0;
+}
+
+.menu-name {
+	min-width: calc(200px - 1em);
+	width: 100%;
+	padding: 0 .5em;
+}
+
+.error-notice-panel {
+	padding: 1em;
+	border: 1px solid #ff0000;
+	margin-bottom: 1em;
+}
+
+.total-bill-panel {
+	font-size: 2.25em;
+	margin: 1em 0;
+	text-align: right;
+}
